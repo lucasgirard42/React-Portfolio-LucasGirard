@@ -122,7 +122,7 @@ export default function Projets() {
             <FontAwesomeIcon icon={faGithub} size={'4x'} />
             </a>
           </div>
-          <div className="gitHubIcons" >
+          <div className="gitHubIcons projetLuxuryServices" >
             <a href="https://github.com/lucasgirard42/Luxury-Services" target="_blank" style={{textDecoration: 'none', color:'white'}}>
             <h1 >
               Luxury <br /> services
