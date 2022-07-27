@@ -74,9 +74,7 @@ class App extends React.Component {
         {
           text: <Contact/>,
         }, 
-        {
-          text: <Test/>,
-        }, 
+       
        
         
        
@@ -151,7 +149,7 @@ class App extends React.Component {
           // fullpage options
         
           navigation
-          anchors={['home', 'A-propos', 'A-proposSuites', 'Mes-Services', 'Projets', 'contact', 'test']}
+          anchors={['home', 'A-propos', 'A-proposSuites', 'Mes-Services', 'Projets', 'contact']}
           sectionSelector={SECTION_SEL}
           onLeave={this.onLeave.bind(this)}
           sectionsColor={this.state.sectionsColor}
