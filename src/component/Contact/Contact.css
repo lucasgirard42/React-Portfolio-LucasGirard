@@ -1,0 +1,78 @@
+
+
+.formContact {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    text-align: start;
+}
+
+.nameAndEmail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    margin-bottom: 40px;
+}
+
+.field1 {
+    grid-area: 1 / 1 / 2 / 2;
+    
+}
+
+.field2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.inputNameAndEmail {
+    width: 100%;
+}
+
+.field3 { 
+    margin-bottom: 40px;
+}
+
+.inputSubmit {
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+input {
+    background-color: transparent;
+    border: #F8D948 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+}
+
+textarea {
+    background-color: transparent;
+    border: #F8D948 1px solid;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+
+@media only screen and (max-width: 992px){
+    .formContact {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+    /*position: absolute;*/
+    left: 0;
+    bottom: 0;
+   /* height: 60px;*/
+    width: 100%;
+    padding-bottom: 20px;
+}

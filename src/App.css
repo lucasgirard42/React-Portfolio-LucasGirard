@@ -1,38 +1,128 @@
 .App {
+  /*text-align: center;*/
+  height: 100vh;
+ /* min-height: 100vh;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+#fp-nav.fp-right {
+  right: 0px !important;
+}
+
+.menu{
+  /*background-color: rgba(28,110,164,0.17);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: black;
+}
+
+/*.hamburgerList:hover{
+  border: 1px solid yellow;
+  padding: 7px;
+}*/
+
+.myName{
+  grid-area: 1 / 1 / 2 / 2 ;
+  padding-left: 20px;
+}
+
+.actions{
+  grid-area: 1 / 2 / 2 / 3;   
+  list-style-type: none !important;
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.actions li {
+  float: right;
+  padding-left: 20px;
+  
+}
+
+.menuActionLink{
+  padding-left: 0px !important;
+  display: inline-block;
+}
+
+/*li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height:  0.25rem;
+  background: #f8d948;
+  transition: width .4s ease-in;
+  border-radius: 1rem;
+  transform: scaleX(0);  
+}
+
+li a:hover::after {
+  transform: scaleX(1);
+  width: 100%;
+}*/
+
+.menuActionLink:after {
+  display:block;
+  content: '';
+  border-bottom: solid 0.25rem  #f8d948;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  border-radius: 30px;
+  margin-top: 10px;
+  
+
+}
+
+.menuActionLink:hover:after { transform: scaleX(1); }
+
+
+ 
+.custom-section{
+  background-image: linear-gradient(315deg, #8b4a5f 0%, #6868ac 74%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hamburger-react{
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+
+@media only screen and (max-width: 1196px) {
+ .menuAction {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .hamburger-react{
+    display: block;
+    float: right;
+    
   }
-  to {
-    transform: rotate(360deg);
+
+  .hamburgerMenu{
+    align-self: center;
   }
+
+  
+
+
+    
 }
+
+

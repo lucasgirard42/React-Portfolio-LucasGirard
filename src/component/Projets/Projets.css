@@ -1,0 +1,138 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swiper-slide img .imageProjets {
+  display: block;
+
+
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper {
+  width: 90%;
+}
+
+.imageProjets {
+  width: 90%;
+}
+
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-button-next {
+  color: white;
+}
+
+.swiper-button-prev {
+  color: white;
+}
+
+.webSiteName {
+  margin-top: 20px !important;
+  margin-bottom: 0px;
+}
+
+.card-text {
+  margin-bottom: 30px !important;
+}
+
+.cosyPiscineText {
+  text-decoration: none;
+  color: #000;
+}
+
+.cosyPiscineText:hover {
+  color: #f8d948;
+}
+
+.imgAndButton {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.buttonDownload {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-xl {
+  background-color: transparent;
+  color: #fff;
+  /* width: 200px; */
+  border: #f8d948 1px solid;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.btn-xl:hover {
+  background-color: transparent;
+  color: #f8d948;
+}
+
+.rowtest{
+  
+  align-self: center;
+  flex-direction: row;
+  justify-content:space-around ;
+  
+}
+
+.gitHubIcon{
+  text-decoration: none ;
+  
+  
+}
+
+.gitHubIcons{
+  margin-bottom: 38px;
+}
+
+.projetLuxuryServices{
+  margin-top: 15px !important;
+}
+
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: 'prev';
+  font-size: 15px;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: 'next';
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 532px) {
+  .rowtest{
+    font-size: xx-small;
+  }
+}

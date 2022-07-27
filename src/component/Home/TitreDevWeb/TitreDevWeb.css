@@ -1,0 +1,47 @@
+.test {
+  margin-top: 50px;
+}
+
+.test2 {
+  display: contents;
+  
+
+}
+
+
+
+@media only screen and (max-width: 1025px) {
+  .test2 {
+    font-size: xx-large !important;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .test2 {
+    font-size: x-large !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .test2 {
+    font-size:larger !important;
+  }
+}
+
+@media only screen and (max-width: 381px) {
+  .test2 {
+    font-size:large !important;
+  }
+}
+
+@media only screen and (max-width: 341px) {
+  .test2 {
+    font-size:medium !important;
+  }
+}
+
+@media only screen and (max-width: 316px) {
+  .test2 {
+    font-size:small !important;
+  }
+}
