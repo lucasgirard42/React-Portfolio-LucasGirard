@@ -109,7 +109,7 @@ class App extends React.Component {
         }}
       >
         <div className="myName">
-          <p>LUCAS GIRARD</p>
+          <p className="nameUser">LUCAS GIRARD</p>
         </div>
         <ul className="actions menuAction">
           {/*<li><a href="#test">test</a> </li>*/}

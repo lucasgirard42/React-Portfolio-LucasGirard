@@ -134,6 +134,7 @@ export default function Projets() {
         </SwiperSlide>
 
       </Swiper>
+  
     </div>
   );
 }
